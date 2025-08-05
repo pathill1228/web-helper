@@ -2,9 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <h1>The Website Helper</h1>
-      <h3>Your personal web helper.</h3>
+    <div className="flex justify-center items-center h-screen">
+      <div className="">
+        <div className="text-4xl font-bold center text-primary">
+          The Website Helper
+        </div>
+        <p className="text-xl center text-primary">Your personal web helper.</p>
+      </div>
     </div>
   );
 }
